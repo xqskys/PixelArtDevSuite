@@ -1,0 +1,92 @@
+für Processing 3.5.4(http://processing.org)
+!diese version ist MIT INTERNET ZUGRIFF sie läd beim rechteck malen den besucherzähler als zahl z.B.: 416 und schreibt in als kommentar "//416"
+ neben den rechteckcode"
+change Folder path in pde&list.txt oder 
+and start bat
+
+ändere nur die C:/Users... pfade, alle 6, füge in diesem bereich nichts anderes ein!
+ändere die list/list.txt genau so! du kannst dazu den ganzen pigek5.pde inhalt  copiern und einfügen in die list.txt im unterordner list/.
+starte dann die start5.bat
+
+einer der beiden pigek ordner ist immer defekt, das ist normal. starte einfach die andere start bat.
+es liegt ein zip file im pigek ordner falls du den quellcode auf anfang zurück setzten musst.
+----------------------------
+/*
+4
+*/
+/*
+output = createWriter("C:/Users/Jan Bühring/Desktop/processing-3.5.4/pigek5/pigek5.pde");
+outputtxt = createWriter("C:/Users/Jan Bühring/Desktop/processing-3.5.4/pigek5/list/list.txt");
+output = createWriter("C:/Users/Jan Bühring/Desktop/processing-3.5.4/pigek6/pigek6.pde");
+outputtxt = createWriter("C:/Users/Jan Bühring/Desktop/processing-3.5.4/pigek6/list/list.txt");
+*/
+
+
+PrintWriter output;
+PrintWriter outputtxt;
+void setup() {
+output = createWriter("C:/Users/Jan Bühring/Desktop/processing-3.5.4/pigek6/pigek6.pde");
+outputtxt = createWriter("C:/Users/Jan Bühring/Desktop/processing-3.5.4/pigek6/list/list.txt");
+----------------------------------
+
+zeile 1835 am ende von pigek5.pde
+ändere beide c:/user... pfade runs 4 führt start6.bat(4 in zeile ganz oben); runs 5 führt start5.bat(4 in zeile ganz oben);
+----------------------------------
+ if (runs==4){runde++; launch("C:/Users/Jan Bühring/Desktop/processing-3.5.4/start6.bat");delay(200);
+ exit();}
+ else {runde++; launch("C:/Users/Jan Bühring/Desktop/processing-3.5.4/start5.bat");delay(200);
+ exit();
+
+
+}}}}
+//eof
+
+------------------------
+
+die start5.bat aktiviert pigek5.pde
+die start6.bat aktiviert pigek6.pde
+wenn pigek in prozessing 3.5.4 direckt kopiert wurde brauchst du sie nicht ändern.
+
+wenn mit "m" + maus ein rechteck gemacht wurde dauert das nocht einige zeit bis das pigek program den neuen Quellcode ausführt.
+
+
+ Ein malprogramm das die , rechtecke in den quellcode eintraegt, also der eigene quellcode des programms als bildformat,
+Die parameter fehler sind raus die rechtecke sind nun interaktiv.
+you need Processing 3.5.4
+change Folder path in wheek
+and start bat
+klick left and drag mouse for recktengel
+klick left and drag mouse for recktengel while pressing l for left klick bnutton
+klick left and drag mouse for recktengel while pressing r for Right klick bnutton
+im prinzip kann das programm spaeter auch auf events hin quellcode in sich selbst erzeugen und ausfueheren
+wheekdraw_v_0_3_2.zip 10kb MIT_License
+
+ 
+eine weiterenwicklung von wheekdraw: selbstkommentirender code und selbsterzeugende int fuer die rechtecke
+klick left and drag mouse for recktengel while pressing p for moveable square
+
+das programm ist ist im beginn der entwicklung
+pigek_V0_0_7.zip 10kb MIT_License
+
+ 
+pigek fueses with Smilyhelpe2r use the keys"r-l-p" / "w-a-s-d v0_3_3" / "m" drag square by mouse v0_3_7"
+or press any key for rectangele features/
+this need a while, the progamm ist reprogramming by it self after making square
+pigek_V0_3_3.zip 10kb MIT_License
+
+ 
+pigek_V0_3_7.zip 40kb MIT_License 
+
+
+---
+im pigek ornder ist ein textplayer er spielt die filme ordner ab
+
+im work ordner:
+anygray spielt die aktuelle txt files ab nur schwarz und weiss.
+anycolortrue spielt die txt files ab nur farbwerte 0 oder 255.
+
+mit links oder rechts mouse gedrückt halten für heller werden oder dunkler
+klicke play mouse rechts oder links
+
+txt_to_pic_V0_1_3_7_color wandelt die txt s in ein png
+pic_to_txt_V0_1_3_7_color wandelt die bild in txt s um(z.b. zum importiern)
